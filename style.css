@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+nav{     /*nav bar i.e the top bar */
+    position: fixed;
+    background: #1b1b1b;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+}
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.menu .logo a{          /*For styling the logo on the top right*/
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .menu ul{
+    display: inline-flex;
+  }
+  .menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .img{      /*This the main image part , I have used it as it was suitable for this type of site , change it from pixabay*/
+  background: url("./Images/bg3.jpg")no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  opacity: 0.8;
+}
+.center{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+  }
+  .center .title{    /* For first title text*/
+    color: #fff;
+    font-size: 55px;
+    font-weight: 900;
+    opacity: 20;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .center .sub_title{    /*for second title text*/
+    color: #fff;
+    font-size: 40px;
+    font-weight: 800;
+    opacity: 20;
+  }
+  .center .btns{
+    margin-top: 30px;
+  }
+  .center .btns button{   /*The Events and Register buttons */
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 10px;
+    border: 2px solid;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    }
+  
